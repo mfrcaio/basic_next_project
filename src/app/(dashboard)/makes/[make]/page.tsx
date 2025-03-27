@@ -5,8 +5,6 @@ interface IMakeProps {
 }
 
 export default function Make({ params }: IMakeProps) {
-  console.log(params);
-  
   return (
     <div>
       Todos os veículos de: {params.make}
