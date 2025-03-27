@@ -1,6 +1,6 @@
 > [!TIP]
 > Main skills used:
-> NextJs | TypeScript | TailwindCSS.
+> **NextJS** | **TypeScript** | **TailwindCSS**
 
 ___________________________
 
