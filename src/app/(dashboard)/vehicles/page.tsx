@@ -1,4 +1,4 @@
-export default function vehicles() {
+export default function Vehicles() {
   return (
     <div>
       <h1>Vehicles</h1>
