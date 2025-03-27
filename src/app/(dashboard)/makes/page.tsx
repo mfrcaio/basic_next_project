@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 
 async function getMakes() {
@@ -5,6 +6,10 @@ async function getMakes() {
 
   return ['audi', 'bmw', 'mercedes', 'nissan', 'subaru'];
 }
+
+export const metadata: Metadata = {
+  title: "All Vehicles | Jstacar",
+};
 
 export default async function Makes() {
   const makes = await getMakes();
